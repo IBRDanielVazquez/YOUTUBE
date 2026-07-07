@@ -2,16 +2,22 @@
 
 > El objetivo nunca es repetir. Siempre aportar más valor.
 
-**Ángulo elegido (una frase):**
+**Ángulo elegido (una frase):** El documental sigue el canon del Nuevo Testamento como un **expediente de evidencia de 300 años** — no como el veredicto de un solo concilio ni como una conspiración de poder — mostrando al espectador, documento por documento y criterio por criterio, cómo un proceso distribuido y verificable (no un evento único) terminó por reconocer los mismos 27 libros en iglesias que apenas se comunicaban entre sí, con la corrección del mito de Nicea como un giro dentro de ese expediente, no como el video completo.
 
 **Por qué este ángulo y no otro (de al menos 3 considerados):**
 
-1. Ángulo considerado — descartado porque:
-2. Ángulo considerado — descartado porque:
-3. Ángulo elegido — por qué gana:
+1. **Ángulo "desmontar el mito de Nicea" (video centrado exclusivamente en corregir "Nicea decidió la Biblia")** — descartado porque la Fase 4 encontró que este sub-nicho ya está activamente saturado: al menos 4 piezas de competencia directa publicadas en los últimos 18 meses (Wesley Huff en dos formatos, "Exposing the Myth", "The Biblical Canon Was NOT Decided at the Council of Nicaea") cubren exactamente este ángulo. Competir de frente ahí, sin aportar el arco completo de 300 años, sería repetir en vez de aportar valor — justo lo que `CLAUDE.md` prohíbe.
+2. **Ángulo apologético ("por qué puedes confiar en tu Biblia")** — descartado porque viola directamente las líneas rojas de `CLAUDE.md` (contenido devocional/denominacional) y duplica sin diferenciación el clúster de competencia ya identificado (Wesley Huff, Gavin Ortlund/Truth Unites, John Meade/Text & Canon Institute), que además presenta el tema con una premisa confesional que sesga la evidencia hacia una conclusión predeterminada.
+3. **Ángulo "revelación política" (el canon como pura imposición de poder de la facción ganadora, en la línea más fuerte de la lectura de Ehrman)** — descartado porque presentaría una sola escuela académica como si fuera el consenso, exactamente el mismo problema que el video de entrevista con Ehrman identificado en la Fase 4 (una sola perspectiva, sin contraste con Kruger/McDonald/Metzger). Además roza el sensacionalismo que `CLAUDE.md` prohíbe explícitamente ("nunca exagerar").
+4. **Ángulo elegido — "expediente de evidencia" — por qué gana:** es el único de los cuatro que (a) cubre los huecos de keyword sin competencia directa detectados en la Fase 4 (Fragmento Muratoriano, "por qué se removieron libros"), (b) permite presentar de forma audible y sistemática la clasificación Hecho/Hipótesis/Interpretación/Tradición/Consenso académico que ningún competidor hace, (c) integra el mito de Nicea como una escena dentro de una historia más grande en lugar de agotar el video entero en desmentirlo, y (d) mantiene la neutralidad confesional exigida por `CLAUDE.md`, presentando el contraste Kruger/McDonald/Metzger vs. Ehrman como parte del expediente en vez de resolverlo a favor de uno.
 
-**Promesa al espectador (qué se va a llevar al terminar el video):**
+**Promesa al espectador (qué se va a llevar al terminar el video):** Al terminar, el espectador podrá explicarle a cualquiera —con nombres, fechas aproximadas y fuentes primarias concretas— por qué el Nuevo Testamento tiene 27 libros, por qué el mito "un concilio decidió la Biblia" es históricamente insostenible, qué se sabe con certeza documental y qué sigue siendo objeto de debate académico activo (como la fecha del Fragmento Muratoriano), sin necesidad de tomar una postura de fe para entender el proceso histórico.
 
 **Cómo se conecta con la brecha de valor identificada en Fase 4:**
+- Cubre directamente los dos huecos de keyword sin competencia detectados ("what is the Muratorian Fragment", "why were books removed from the Bible") al dedicarles tiempo de pantalla propio dentro del expediente, en vez de menciónarlos de pasada.
+- Responde al punto 1 de la brecha de valor (neutralidad confesional real) al estructurar el video como evidencia acumulativa en vez de argumento a favor o en contra de la fiabilidad bíblica.
+- Responde al punto 2 (evidencia documental clasificada explícitamente) al convertir la clasificación Hecho/Hipótesis/Interpretación/Tradición/Consenso académico en el mecanismo narrativo central del "expediente", no en una nota a pie de página.
+- Responde al punto 4 (calidad de producción cinematográfica) al eliminar la necesidad de un presentador a cámara: el "expediente" se puede visualizar íntegramente con manuscritos, mapas, líneas de tiempo y recreaciones, en línea con el estándar Netflix/BBC/National Geographic exigido por `CLAUDE.md`.
+- Responde al punto 5 (arco narrativo completo) por diseño: el expediente cubre Marción → Ireneo → Fragmento Muratoriano → Orígenes → Eusebio → Nicea (mito desmentido) → Atanasio → Hipona/Cartago como un solo caso acumulativo, no episodios sueltos.
 
 **Siguiente paso:** completar `04-guion-cinematografico.md`.
