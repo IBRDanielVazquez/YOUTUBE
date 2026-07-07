@@ -319,7 +319,7 @@ NARRADOR (V.O.):
 [CONSENSO ACADÉMICO — con desacuerdo real]
 Hoy, la mayoría de los historiadores coincide en la columna vertebral de
 esta historia que acabas de ver. Pero no todos leen el conjunto de la
-misma manera. Microsoft Kruger sostiene que hubo, desde muy temprano, una
+misma manera. Michael Kruger sostiene que hubo, desde muy temprano, una
 conciencia clara de qué era Escritura y qué no. Bart Ehrman pone el
 acento en que la línea entre "ortodoxia" y "herejía" la trazaron, en gran
 medida, los que terminaron ganando esa disputa. Ninguno de los dos niega
