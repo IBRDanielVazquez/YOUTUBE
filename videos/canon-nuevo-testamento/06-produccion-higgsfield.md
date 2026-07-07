@@ -8,20 +8,13 @@
 
 ## Voz de narración
 
-**Voz elegida (`list_voices` / `create_voice`):** pendiente de audición final, pero preseleccionada a partir de `list_voices` (30 voces exploradas):
+**Voz elegida (`list_voices` / `create_voice`):** El narrador del documental será en **español**. Se buscará una voz masculina con registro grave, serio y de tono documental y sobrio adecuado para el estilo "expediente" del guion.
 
-| Candidata | Voice ID | Género | Por qué se preselecciona |
-|---|---|---|---|
-| **Sterling** *(principal recomendada)* | `dc382508-c8bd-443c-8cb2-46e57b8d2e6f` | Masculino | Nombre y catálogo sugieren registro grave/serio, adecuado al tono "expediente" sobrio del guion — **a confirmar escuchando `preview_url` antes de generar cualquier locución final** |
-| Arthur *(alternativa 1)* | `30fc8796-ceb6-4a66-b3a7-4a145ef7f346` | Masculino | Alternativa de registro clásico/documental |
-| Harrison *(alternativa 2)* | `573e5163-59b3-4926-aab1-951ef2985f81` | Masculino | Alternativa si se busca un tono más cálido que "Sterling" |
-| Vesper *(alternativa de género)* | `c3204739-4084-41a3-9dc5-c805b307ec18` | Femenino | Por si se decide narración femenina — registro sobrio sugerido por el catálogo |
+**Herramienta de generación:** `text2speech_v2` con `variant: "elevenlabs"` (motor de alta calidad para narraciones largas en español) o el modelo de voz en español recomendado por `list_voices`.
 
-**Herramienta de generación:** `text2speech_v2` con `variant: "elevenlabs"` (motor de mayor calidad percibida para narración documental larga) y `voice_type: "preset"` + el `voice_id` elegido. Alternativa: `generate_audio` con `seed_audio` si se prefiere ajustar `speech_rate`/`pitch_rate` finamente.
+**Acción antes de generar:** Claude buscará las opciones disponibles de voz en español y escuchará el `preview_url` antes de generar la locución definitiva de la narración en español.
 
-**Acción antes de generar:** escuchar los 4 `preview_url` listados arriba y confirmar la voz definitiva — no se genera narración final sin esta confirmación humana, dado que es la voz de toda la serie documental, no solo de este video.
-
-**Segmentación de la narración:** se generará en 14 clips de audio independientes (uno por Hook, Actos 0–10, Conclusión y CTA), no en una sola toma continua, para poder ajustar ritmo/pausas por bloque sin regenerar el video completo si se necesita un cambio puntual.
+**Segmentación de la narración:** se generará en 14 clips de audio independientes en español (uno por Hook, Actos 0–10, Conclusión y CTA) para facilitar la edición y ajustes finos de ritmo.
 
 ## Assets por escena
 
@@ -87,7 +80,7 @@
 
 ## Subtítulos
 
-**Idioma(s):** inglés como pista de subtítulos principal (coincide con la narración final decidida en Fase 6/público objetivo de Fase 1). Español como segunda pista, generada con la herramienta `dubbing` de Higgsfield MCP a partir del audio final en inglés — no se traduce el guion de nuevo desde cero, se dobla/subtitula desde el máster en inglés para evitar discrepancias entre versiones.
+**Idioma(s):** español como pista de audio y subtítulos principal (coincide con el guion original). Inglés como segunda pista de subtítulos/audio multilingüe, generada opcionalmente en el futuro para expansión de mercado.
 
 ## Chequeo de virality (opcional, antes de publicar)
 
