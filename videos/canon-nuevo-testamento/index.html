@@ -5,7 +5,7 @@
   <title>La evolución del Canon del Nuevo Testamento</title>
   <!-- Google Fonts para tipografía premium -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
   
   <style>
@@ -27,8 +27,13 @@
       background: #0b0c10;
     }
 
+    /* Ocultar clips por defecto. El motor de HyperFrames los mostrará usando data-start y data-duration */
+    .clip {
+      display: none;
+    }
+
     /* Ajuste de todos los clips visuales para llenar la pantalla */
-    video, img {
+    video.clip, img.clip {
       position: absolute;
       top: 0;
       left: 0;
@@ -55,15 +60,6 @@
       }
       to {
         opacity: 0;
-      }
-    }
-
-    @keyframes kenBurns {
-      from {
-        transform: scale(1);
-      }
-      to {
-        transform: scale(1.05);
       }
     }
 
@@ -111,41 +107,25 @@
     .animate-out {
       animation: fadeOut 0.8s ease forwards;
     }
-
-    .ken-burns {
-      animation: kenBurns 6s ease-out forwards;
-    }
   </style>
 </head>
 <body>
 
   <!-- Contenedor principal de HyperFrames -->
-  <div id="root" data-composition-id="canon-nt" data-width="1920" data-height="1080">
+  <div data-hf-id="hf-tvpd" id="root" data-composition-id="canon-nt" data-width="1920" data-height="1080" data-start="0" data-duration="20">
 
     <!-- ========================================== -->
     <!-- ESCENA 1: EL MITO DE NICEA (0s - 7s)       -->
     <!-- ========================================== -->
     
     <!-- Video de fondo (Nicea dolly-in) -->
-    <video 
-      id="scene-1-video" 
-      data-start="0" 
-      data-duration="7" 
-      data-track-index="0" 
-      src="assets/plano1_nicea_dolly_in.mp4" 
-      muted 
-      playsinline>
+    <video data-hf-id="hf-pmtf" id="scene-1-video" class="clip" data-start="0" data-duration="7" data-track-index="0" src="assets/plano1_nicea_dolly_in.mp4" muted playsinline>
     </video>
 
     <!-- Overlay de texto para Escena 1 -->
-    <div 
-      id="scene-1-text" 
-      class="overlay-title animate-in" 
-      data-start="1" 
-      data-duration="5" 
-      data-track-index="1">
-      <h1>NICEA, 325 d.C.</h1>
-      <p>El Concilio Equivocado</p>
+    <div data-hf-id="hf-v7e5" id="scene-1-text" class="clip overlay-title animate-in" data-start="1" data-duration="5" data-track-index="1">
+      <h1 data-hf-id="hf-pckt">NICEA, 325 d.C.</h1>
+      <p data-hf-id="hf-85fg">El Concilio Equivocado</p>
     </div>
 
 
@@ -154,23 +134,12 @@
     <!-- ========================================== -->
     
     <!-- Imagen de fondo de la tarjeta de texto -->
-    <img 
-      id="scene-2-bg" 
-      data-start="7" 
-      data-duration="5" 
-      data-track-index="0" 
-      src="assets/plano2_tarjeta_texto.png">
+    <img data-hf-id="hf-wtwa" id="scene-2-bg" class="clip" data-start="7" data-duration="5" data-track-index="0" src="assets/plano2_tarjeta_texto.png">
 
     <!-- Overlay de texto principal sobre la tarjeta -->
-    <div 
-      id="scene-2-text" 
-      class="overlay-title animate-in" 
-      data-start="7.5" 
-      data-duration="4" 
-      data-track-index="1"
-      style="width: 1200px; padding: 50px 30px;">
-      <h1 style="font-size: 56px; line-height: 1.2;">¿QUÉ LIBROS IBAN EN TU BIBLIA?</h1>
-      <p style="color: #f43f5e;">LO QUE EL CONCILIO NO DEBATIÓ</p>
+    <div data-hf-id="hf-ulju" id="scene-2-text" class="clip overlay-title animate-in" data-start="7.5" data-duration="4" data-track-index="1" style="width: 1200px; padding: 50px 30px;">
+      <h1 data-hf-id="hf-xa5d" style="font-size: 56px; line-height: 1.2;">¿QUÉ LIBROS IBAN EN TU BIBLIA?</h1>
+      <p data-hf-id="hf-qtfy" style="color: #f43f5e;">LO QUE EL CONCILIO NO DEBATIÓ</p>
     </div>
 
 
@@ -179,42 +148,14 @@
     <!-- ========================================== -->
     
     <!-- Video de la sala de archivo (travelling cenital) -->
-    <video 
-      id="scene-3-video" 
-      data-start="12" 
-      data-duration="8" 
-      data-track-index="0" 
-      src="assets/plano3_archivo_video.mp4" 
-      muted 
-      playsinline>
+    <video data-hf-id="hf-2jg4" id="scene-3-video" class="clip" data-start="12" data-duration="8" data-track-index="0" src="assets/plano3_archivo_video.mp4" muted playsinline>
     </video>
 
     <!-- Overlay de texto sobre el manuscrito de archivo -->
-    <div 
-      id="scene-3-text" 
-      class="overlay-title animate-in" 
-      data-start="13" 
-      data-duration="6" 
-      data-track-index="1">
-      <h1>EL EXPEDIENTE</h1>
-      <p>Evidencia y Criterio de Selección</p>
+    <div data-hf-id="hf-5et7" id="scene-3-text" class="clip overlay-title animate-in" data-start="13" data-duration="6" data-track-index="1">
+      <h1 data-hf-id="hf-zgp0">EL EXPEDIENTE</h1>
+      <p data-hf-id="hf-9nwx">Evidencia y Criterio de Selección</p>
     </div>
-
-    <!-- ========================================== -->
-    <!-- AUDIO Y MÚSICA (0s - 20s)                  -->
-    <!-- ========================================== -->
-    
-    <!-- Música de fondo (si el usuario agrega un archivo de audio) -->
-    <!-- 
-    <audio 
-      id="bg-music" 
-      data-start="0" 
-      data-duration="20" 
-      data-track-index="2" 
-      data-volume="0.2" 
-      src="assets/musica_fondo.mp3">
-    </audio> 
-    -->
 
   </div>
 
