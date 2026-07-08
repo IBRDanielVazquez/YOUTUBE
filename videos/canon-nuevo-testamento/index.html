@@ -5,7 +5,7 @@
   <title>La evolución del Canon del Nuevo Testamento</title>
   <!-- Google Fonts para tipografía premium -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
   
   <style>
@@ -106,50 +106,354 @@
 </head>
 <body>
 
-  <!-- Contenedor principal de HyperFrames -->
-  <div data-hf-id="hf-tvpd" id="root" data-composition-id="canon-nt" data-width="1920" data-height="1080" data-start="0" data-duration="20" data-no-timeline>
+  <!-- Contenedor principal de HyperFrames: Duración total 570 segundos (9.5 minutos) -->
+  <div id="root" data-composition-id="canon-nt" data-width="1920" data-height="1080" data-start="0" data-duration="570" data-no-timeline>
 
-    <!-- ========================================== -->
-    <!-- ESCENA 1: EL MITO DE NICEA (0s - 7s)       -->
-    <!-- ========================================== -->
-    
-    <!-- Video de fondo (Nicea dolly-in) -->
-    <video data-hf-id="hf-pmtf" id="scene-1-video" class="clip" data-start="0" data-duration="7" data-track-index="0" src="assets/plano1_nicea_dolly_in.mp4" muted playsinline>
+    <!-- ========================================================== -->
+    <!-- ESCENA 1: EL MITO DE NICEA (0s - 30s)                       -->
+    <!-- ========================================================== -->
+    <video 
+      id="scene-1-video" 
+      class="clip"
+      data-start="0" 
+      data-duration="30" 
+      data-track-index="0" 
+      src="assets/plano1_nicea_dolly_in.mp4" 
+      muted 
+      loop
+      playsinline>
     </video>
-
-    <!-- Overlay de texto para Escena 1 -->
-    <div data-hf-id="hf-v7e5" id="scene-1-text" class="clip overlay-title animate-in" data-start="1" data-duration="5" data-track-index="1">
-      <h1 data-hf-id="hf-pckt">NICEA, 325 d.C.</h1>
-      <p data-hf-id="hf-85fg">El Concilio Equivocado</p>
+    <div 
+      id="scene-1-text" 
+      class="clip overlay-title animate-in" 
+      data-start="2" 
+      data-duration="26" 
+      data-track-index="1">
+      <h1>NICEA, 325 d.C.</h1>
+      <p>El Concilio Equivocado</p>
     </div>
 
 
-    <!-- ========================================== -->
-    <!-- ESCENA 2: TARJETA DE TEXTO (7s - 12s)      -->
-    <!-- ========================================== -->
-    
-    <!-- Imagen de fondo de la tarjeta de texto -->
-    <img data-hf-id="hf-wtwa" id="scene-2-bg" class="clip" data-start="7" data-duration="5" data-track-index="0" src="assets/plano2_tarjeta_texto.png">
-
-    <!-- Overlay de texto principal sobre la tarjeta -->
-    <div data-hf-id="hf-ulju" id="scene-2-text" class="clip overlay-title animate-in" data-start="7.5" data-duration="4" data-track-index="1" style="width: 1200px; padding: 50px 30px;">
-      <h1 data-hf-id="hf-xa5d" style="font-size: 56px; line-height: 1.2;">¿QUÉ LIBROS IBAN EN TU BIBLIA?</h1>
-      <p data-hf-id="hf-qtfy" style="color: #f43f5e;">LO QUE EL CONCILIO NO DEBATIÓ</p>
+    <!-- ========================================================== -->
+    <!-- ESCENA 2: LA VERDAD HISTÓRICA (30s - 60s)                  -->
+    <!-- ========================================================== -->
+    <img 
+      id="scene-2-bg" 
+      class="clip"
+      data-start="30" 
+      data-duration="30" 
+      data-track-index="0" 
+      src="assets/plano2_tarjeta_texto.png">
+    <div 
+      id="scene-2-text" 
+      class="clip overlay-title animate-in" 
+      data-start="32" 
+      data-duration="26" 
+      data-track-index="1"
+      style="width: 1200px; padding: 50px 30px;">
+      <h1 style="font-size: 56px; line-height: 1.2;">¿QUÉ LIBROS IBAN EN TU BIBLIA?</h1>
+      <p style="color: #f43f5e;">LO QUE EL CONCILIO NO DEBATIÓ</p>
     </div>
 
 
-    <!-- ========================================== -->
-    <!-- ESCENA 3: SALA DE ARCHIVO (12s - 20s)      -->
-    <!-- ========================================== -->
-    
-    <!-- Video de la sala de archivo (travelling cenital) -->
-    <video data-hf-id="hf-2jg4" id="scene-3-video" class="clip" data-start="12" data-duration="8" data-track-index="0" src="assets/plano3_archivo_video.mp4" muted playsinline>
+    <!-- ========================================================== -->
+    <!-- ESCENA 3: SALA DE ARCHIVO (60s - 90s)                      -->
+    <!-- ========================================================== -->
+    <video 
+      id="scene-3-video" 
+      class="clip"
+      data-start="60" 
+      data-duration="30" 
+      data-track-index="0" 
+      src="assets/plano3_archivo_video.mp4" 
+      muted 
+      loop
+      playsinline>
     </video>
+    <div 
+      id="scene-3-text" 
+      class="clip overlay-title animate-in" 
+      data-start="62" 
+      data-duration="26" 
+      data-track-index="1">
+      <h1>EL EXPEDIENTE</h1>
+      <p>Evidencia y Criterio de Selección</p>
+    </div>
 
-    <!-- Overlay de texto sobre el manuscrito de archivo -->
-    <div data-hf-id="hf-5et7" id="scene-3-text" class="clip overlay-title animate-in" data-start="13" data-duration="6" data-track-index="1">
-      <h1 data-hf-id="hf-zgp0">EL EXPEDIENTE</h1>
-      <p data-hf-id="hf-9nwx">Evidencia y Criterio de Selección</p>
+
+    <!-- ========================================================== -->
+    <!-- ESCENA 4: LA VARA DE MEDIR (90s - 135s)                     -->
+    <!-- Remplazar por assets/plano4_escriba_vara.mp4 cuando se genere-->
+    <!-- ========================================================== -->
+    <video 
+      id="scene-4-video" 
+      class="clip"
+      data-start="90" 
+      data-duration="45" 
+      data-track-index="0" 
+      src="assets/plano3_archivo_video.mp4" 
+      muted 
+      loop
+      playsinline>
+    </video>
+    <div 
+      id="scene-4-text" 
+      class="clip overlay-title animate-in" 
+      data-start="92" 
+      data-duration="41" 
+      data-track-index="1">
+      <h1>KANŌN</h1>
+      <p>La Vara de Medir</p>
+    </div>
+
+
+    <!-- ========================================================== -->
+    <!-- ESCENA 5: LECTURA PÚBLICA (135s - 180s)                    -->
+    <!-- Remplazar por assets/plano5_lectura_liturgica.mp4             -->
+    <!-- ========================================================== -->
+    <video 
+      id="scene-5-video" 
+      class="clip"
+      data-start="135" 
+      data-duration="45" 
+      data-track-index="0" 
+      src="assets/plano1_nicea_dolly_in.mp4" 
+      muted 
+      loop
+      playsinline>
+    </video>
+    <div 
+      id="scene-5-text" 
+      class="clip overlay-title animate-in" 
+      data-start="137" 
+      data-duration="41" 
+      data-track-index="1">
+      <h1>GRAPHĒ</h1>
+      <p>La Escritura en la Comunidad</p>
+    </div>
+
+
+    <!-- ========================================================== -->
+    <!-- ESCENA 6: EL PAPIRO DEL NILO (180s - 225s)                 -->
+    <!-- Remplazar por assets/plano6_papiro_nilo.mp4                  -->
+    <!-- ========================================================== -->
+    <img 
+      id="scene-6-bg" 
+      class="clip"
+      data-start="180" 
+      data-duration="45" 
+      data-track-index="0" 
+      src="assets/plano2_tarjeta_texto.png">
+    <div 
+      id="scene-6-text" 
+      class="clip overlay-title animate-in" 
+      data-start="182" 
+      data-duration="41" 
+      data-track-index="1">
+      <h1>EL PAPIRO</h1>
+      <p>El Soporte del Mensaje</p>
+    </div>
+
+
+    <!-- ========================================================== -->
+    <!-- ESCENA 7: LA REVOLUCIÓN DEL CÓDICE (225s - 270s)            -->
+    <!-- Remplazar por assets/plano7_codice_3d.mp4                   -->
+    <!-- ========================================================== -->
+    <video 
+      id="scene-7-video" 
+      class="clip"
+      data-start="225" 
+      data-duration="45" 
+      data-track-index="0" 
+      src="assets/plano3_archivo_video.mp4" 
+      muted 
+      loop
+      playsinline>
+    </video>
+    <div 
+      id="scene-7-text" 
+      class="clip overlay-title animate-in" 
+      data-start="227" 
+      data-duration="41" 
+      data-track-index="1">
+      <h1>EL CÓDICE</h1>
+      <p>La Tecnología de la Biblia</p>
+    </div>
+
+
+    <!-- ========================================================== -->
+    <!-- ESCENA 8: MARCIÓN EL HEREJE (270s - 315s)                  -->
+    <!-- Remplazar por assets/plano8_marcion.mp4                    -->
+    <!-- ========================================================== -->
+    <video 
+      id="scene-8-video" 
+      class="clip"
+      data-start="270" 
+      data-duration="45" 
+      data-track-index="0" 
+      src="assets/plano1_nicea_dolly_in.mp4" 
+      muted 
+      loop
+      playsinline>
+    </video>
+    <div 
+      id="scene-8-text" 
+      class="clip overlay-title animate-in" 
+      data-start="272" 
+      data-duration="41" 
+      data-track-index="1">
+      <h1>MARCIÓN</h1>
+      <p>La Primera Lista (140 d.C.)</p>
+    </div>
+
+
+    <!-- ========================================================== -->
+    <!-- ESCENA 9: LA DEPURACIÓN TEXTUAL (315s - 360s)               -->
+    <!-- Remplazar por assets/plano9_pluma_tinta.mp4                 -->
+    <!-- ========================================================== -->
+    <img 
+      id="scene-9-bg" 
+      class="clip"
+      data-start="315" 
+      data-duration="45" 
+      data-track-index="0" 
+      src="assets/plano2_tarjeta_texto.png">
+    <div 
+      id="scene-9-text" 
+      class="clip overlay-title animate-in" 
+      data-start="317" 
+      data-duration="41" 
+      data-track-index="1"
+      style="width: 1200px;">
+      <h1>EL EVANGELIKON</h1>
+      <p>La Depuración de los Textos</p>
+    </div>
+
+
+    <!-- ========================================================== -->
+    <!-- ESCENA 10: EL HALLAZGO DE MURATORI (360s - 405s)           -->
+    <!-- Remplazar por assets/plano10_hallazgo_muratori.mp4          -->
+    <!-- ========================================================== -->
+    <video 
+      id="scene-10-video" 
+      class="clip"
+      data-start="360" 
+      data-duration="45" 
+      data-track-index="0" 
+      src="assets/plano3_archivo_video.mp4" 
+      muted 
+      loop
+      playsinline>
+    </video>
+    <div 
+      id="scene-10-text" 
+      class="clip overlay-title animate-in" 
+      data-start="362" 
+      data-duration="41" 
+      data-track-index="1">
+      <h1>FRAGMENTO MURATORIANO</h1>
+      <p>El Manuscrito Enigmático</p>
+    </div>
+
+
+    <!-- ========================================================== -->
+    <!-- ESCENA 11: EL DEBATE MODERNO (405s - 450s)                 -->
+    <!-- Remplazar por assets/plano11_eruditos_debate.mp4            -->
+    <!-- ========================================================== -->
+    <video 
+      id="scene-11-video" 
+      class="clip"
+      data-start="405" 
+      data-duration="45" 
+      data-track-index="0" 
+      src="assets/plano1_nicea_dolly_in.mp4" 
+      muted 
+      loop
+      playsinline>
+    </video>
+    <div 
+      id="scene-11-text" 
+      class="clip overlay-title animate-in" 
+      data-start="407" 
+      data-duration="41" 
+      data-track-index="1">
+      <h1>¿SIGLO II O SIGLO IV?</h1>
+      <p>El Debate de la Datación</p>
+    </div>
+
+
+    <!-- ========================================================== -->
+    <!-- ESCENA 12: LAS 50 BIBLIAS IMPERIALES (450s - 495s)          -->
+    <!-- Remplazar por assets/plano12_scriptorium_imperial.mp4       -->
+    <!-- ========================================================== -->
+    <img 
+      id="scene-12-bg" 
+      class="clip"
+      data-start="450" 
+      data-duration="45" 
+      data-track-index="0" 
+      src="assets/plano2_tarjeta_texto.png">
+    <div 
+      id="scene-12-text" 
+      class="clip overlay-title animate-in" 
+      data-start="452" 
+      data-duration="41" 
+      data-track-index="1"
+      style="width: 1200px;">
+      <h1>LAS 50 BIBLIAS</h1>
+      <p>El Encargo de Constantino (331 d.C.)</p>
+    </div>
+
+
+    <!-- ========================================================== -->
+    <!-- ESCENA 13: LA CARTA FESTAL 39 (495s - 540s)                -->
+    <!-- Remplazar por assets/plano13_atanasio.mp4                  -->
+    <!-- ========================================================== -->
+    <video 
+      id="scene-13-video" 
+      class="clip"
+      data-start="495" 
+      data-duration="45" 
+      data-track-index="0" 
+      src="assets/plano3_archivo_video.mp4" 
+      muted 
+      loop
+      playsinline>
+    </video>
+    <div 
+      id="scene-13-text" 
+      class="clip overlay-title animate-in" 
+      data-start="497" 
+      data-duration="41" 
+      data-track-index="1">
+      <h1>ATANASIO DE ALEJANDRÍA</h1>
+      <p>Carta Festal del Año 367 d.C.</p>
+    </div>
+
+
+    <!-- ========================================================== -->
+    <!-- ESCENA 14: LA BIBLIOTECA DE NAG HAMMADI (540s - 570s)      -->
+    <!-- Remplazar por assets/plano14_nag_hammadi.mp4               -->
+    <!-- ========================================================== -->
+    <video 
+      id="scene-14-video" 
+      class="clip"
+      data-start="540" 
+      data-duration="30" 
+      data-track-index="0" 
+      src="assets/plano1_nicea_dolly_in.mp4" 
+      muted 
+      loop
+      playsinline>
+    </video>
+    <div 
+      id="scene-14-text" 
+      class="clip overlay-title animate-in" 
+      data-start="542" 
+      data-duration="26" 
+      data-track-index="1">
+      <h1>NAG HAMMADI</h1>
+      <p>1945: La Verdad Revelada</p>
     </div>
 
   </div>

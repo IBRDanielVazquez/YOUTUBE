@@ -1,55 +1,64 @@
-# Fase 7 — Storyboard
+# STORYBOARD Y LISTA DE ASSETS: La Formación del Canon del Nuevo Testamento
+**Duración Total**: 540 segundos (9 minutos)
 
-> Escena por escena. Estilo: Netflix / BBC / National Geographic / Discovery / Historia / Arte. Minimalista, cinematográfico, elegante.
+Este documento contiene la lista exacta de archivos visuales que se deben generar para completar el video. Utiliza estos nombres de archivo para guardarlos en `assets/` y que la plantilla de HyperFrames los monte automáticamente.
 
-> **Nota:** al leer `04-guion-cinematografico.md` desde `main` para preparar este storyboard se detectó una errata introducida durante la subida manual: en el Acto 10 el nombre del académico aparece como **"Microsoft Kruger"** en vez de **"Michael Kruger"**. Es un error de nombre propio real (posiblemente autocorrección al copiar/pegar) que debe corregirse en `04-guion-cinematografico.md` antes de grabar la narración — señalado aquí para no arrastrarlo a producción.
+---
 
-> **Convenciones usadas en este storyboard:** PG = Plano General, PM = Plano Medio, PP = Primer Plano, PD = Plano Detalle. Ningún plano usa un presentador a cámara ni rostros protagónicos inventados de las figuras históricas (Marción, Ireneo, Orígenes, Eusebio, Atanasio) — se representan como siluetas, perfiles o manos en cuadro, consistente con el estilo documental sobrio exigido por `CLAUDE.md` y con la ausencia de retratos contemporáneos fiables de estas figuras (ver "Riesgos de interpretación", Fase 1).
+## checklist de Assets Visuales
 
-| # | Duración | Plano | Movimiento de cámara | Narración (línea del guion) | Visual | Iluminación | Música/SFX |
-|---|---|---|---|---|---|---|---|
-| 1 | 0:00–0:07 | PG frontal | Estático con dolly-in muy sutil | "En el año 325, en la ciudad de Nicea... recitan hasta hoy." | Salón de Nicea recreado: obispos en semicírculo, arquitectura tardorromana minimalista, sin extras excesivos | Luz fría azulada, contraluz tenue desde ventanas altas | Drone grave de cello + percusión sutil de tensión creciente |
-| 2 | 0:07–0:15 | PP de texto en pantalla | Corte seco a negro, sin movimiento de cámara | "Pero hay algo que ese concilio... para afirmarlo en un documental?" | Tipografía blanca sobre negro: "NICEA, 325 d.C." → "LO QUE NO DEBATIÓ: QUÉ LIBROS IBAN EN TU BIBLIA." | Negro total, texto en alto contraste | Stinger musical seco, silencio breve, SFX de página pasando |
-| 3 | 0:15–0:35 | PG cenital | Travelling cenital lento | "Esta no es la historia de un veredicto... Cartago, Éfeso." | Mesa oscura de archivo con manuscritos, facsímiles y mapas dispuestos | Luz cálida puntual tipo lámpara de archivo, resto en penumbra | Piano minimalista + ambiente de sala silenciosa |
-| 4 | 0:35–1:05 | PM de manos ordenando documentos | Dolly lateral lento | "Vamos a abrir ese expediente en orden... vamos a nombrar." | Manos (sin rostro) ordenando papeles junto a 5 sellos-icono (Hecho/Hipótesis/Interpretación/Tradición/Consenso) | Misma luz cálida de archivo | Piano continúa, SFX de sello de goma por cada categoría nombrada |
-| 5 | 1:05–1:30 | PP de motion graphic | Estático | "Nada de lo que sigue se afirma sin decir a qué categoría pertenece." | Las 5 etiquetas aparecen en pantalla como sellos estampándose en secuencia | Luz de estudio neutra para el grafismo | Nota musical de cierre de frase, transición al Acto 1 |
-| 6 | 1:30–2:10 | PG aéreo virtual (mapa) | Push-in gradual | "Hacia el año 50 de nuestra era... hoy llamamos evangelios." | Mapa animado del Mediterráneo oriental, rutas doradas entre Éfeso, Corinto, Roma, Antioquía | Fondo oscuro tipo pergamino, rutas doradas brillantes | Cuerdas suaves en modo antiguo/modal, sonido de puerto de fondo |
-| 7 | 2:10–2:45 | PP macro de manuscrito | Macro con enfoque selectivo | "Hacia el año 100... ya las estaba agrupando." | Papiro con texto griego, mano (sin rostro) señalando una línea | Luz lateral cálida, sombra marcada | Cuerdas continúan, leve percusión de "hallazgo" |
-| 8 | 2:45–3:20 | PM manos con estuche de archivo | Dolly lento hacia atrás | "Pero agrupar no es lo mismo... la única correcta?" | Manos cerrando un estuche/caja de manuscritos | Luz de archivo | Música baja de intensidad, tono de pregunta suspendida |
-| 9 | 3:20–4:00 | PD de vasija sellada | Zoom lento in | "Guarda esa pregunta... dieciocho siglos después." | Vasija de barro cerrada, casi en silueta (teaser visual de Nag Hammadi) | Muy tenue, casi contraluz | Sting musical suspendido (cliffhanger), silencio parcial |
-| 10 | 4:00–4:40 | PG interior romano | Travelling lateral | "Hacia el año 144, en Roma... Sin Antiguo Testamento." | Silueta de Marción frente a un rollo desplegado sobre un atril | Luz cálida de interior romano, velas | Cuerdas con tensión creciente, tambor grave |
-| 11 | 4:40–5:15 | PM puerta/expulsión simbólica | Cámara en mano controlada | "La iglesia de Roma lo expulsó... ya no se pudo ignorar." | Puerta cerrándose, el rollo quedando fuera de cuadro | Contraluz de puerta, interior oscuro | **PATTERN INTERRUPT** — corte de ritmo musical, percusión más rápida |
-| 12 | 5:15–5:50 | PP grafismo "Apostolikón" | Estático con overlay | "Durante casi un siglo... él solo lo aceleró." | Motion graphic: lista del "Apostolikón" de Marción junto a la lista posterior de 27 libros | Luz neutra de estudio para el grafismo | Música baja, tono analítico |
-| 13 | 5:50–6:30 | PM split screen de citas | Estático, grafismo | "Otros, en un debate mucho más reciente... una hipótesis en disputa, no un hecho." | Texto en pantalla: nombres y cita breve de McDonald / Vinzent–BeDuhn, enfrentados sin jerarquía visual | Fondo oscuro neutro, tipografía clara | Tensión musical leve, sin resolver |
-| 14 | 6:30–7:15 | PG scriptorium | Dolly-in lento | "Unas tres décadas después... evangelio cuádruple cerrado." | Ireneo (perfil/silueta) dictando a un escriba que copia en Lyon | Luz cálida de vela, atmósfera monástica | Cuerdas cálidas, SFX de pluma rascando papel |
-| 15 | 7:15–7:50 | PD manuscrito iluminado | Macro, paneo lento | (mismo bloque narrativo, continúa) | Ilustración estilo manuscrito medieval con los 4 símbolos evangélicos (león, buey, hombre, águila) | Luz dorada cálida | Música asciende suavemente |
-| 16 | 7:50–8:30 | PM infografía "4 vientos" | Estático con animación de íconos | "Muchos historiadores leen el argumento de Ireneo... palabras exactas." | Brújula con 4 puntos cardinales transformándose en los 4 evangelios | Fondo oscuro neutro | Música se atemúa, tono reflexivo — marca **[INTERPRETACIÓN]** |
-| 17 | 8:30–9:20 | PP fragmento latino dañado | Macro con luz forense | "Esta es la pieza más antigua... en la iglesia de Roma." | Recreación de facsímil del Fragmento Muratoriano, iluminado como pieza de evidencia | Luz cenital dura tipo mesa forense | Cuerdas graves, tono de "expediente" |
-| 18 | 9:20–9:45 | PP freeze frame + overlay | Congelado con overlay gráfico | (pattern interrupt narrativo) | Sello "EN DISPUTA" estampándose sobre la imagen congelada del fragmento | Luz dura, alto contraste | **PATTERN INTERRUPT** — SFX de sello fuerte, corte musical seco |
-| 19 | 9:45–10:20 | PM línea de tiempo bifurcada | Estático, grafismo con nombres/fechas | "La fecha tradicional... en el siglo IV, en Oriente." | Línea de tiempo que se bifurca en dos hipótesis de datación (s. II vs. s. IV), con nombres Sundberg/Hahneman/Metzger en pantalla | Fondo neutro oscuro | Música analítica, dos motivos alternos (uno por postura) |
-| 20 | 10:20–10:50 | PD lupa sobre texto | Push-in lento | "Otros especialistas, como Joseph Verheyden... hoy mismo." | Lupa recorriendo líneas del facsímil | Luz forense dura | Tensión sin resolver, nota suspendida |
-| 21 | 10:50–11:30 | PM fragmento completo | Pull-out lento | "No vamos a fingir que está resuelto... cuándo se escribió." | Fragmento completo, cámara alejándose | Luz forense atenuándose a cálida | Transición musical hacia el Acto 5 |
-| 22 | 11:30–12:10 | PG biblioteca conceptual | Travelling lateral amplio | "Una generación después, en Alejandría... en su propia obra." | Estanterías de rollos; Orígenes (silueta) clasificando en tres mesas | Luz cálida dorada, partícula de polvo sutil en el aire | Cuerdas con aire "académico", percusión suave de clasificación |
-| 23 | 12:10–12:35 | PD tres mesas organizadas | Paneo horizontal lento | (mismo bloque, continúa) | Tres pilas de rollos claramente diferenciadas por textura/etiqueta visual | Misma luz dorada | Continúa la música |
-| 24 | 12:35–13:05 | PM Eusebio escribiendo | Dolly-in | "Ese mismo Eusebio hizo... Epístola de Bernabé." | Eusebio (perfil/silueta) con listas escritas en pergamino, en Cesarea | Luz de estudio eclesiástico, ventana lateral | SFX de pluma escribiendo, música continúa |
-| 25 | 13:05–13:30 | PM infografía de 3 categorías | Estático, motion graphic | "Este es el punto en el que la mayoría... textos originales." | Infografía con homologoúmena / antilegómena / nótha y libros asociados a cada una | Fondo neutro | Resolución musical suave — marca **[CONSENSO ACADÉMICO]** |
-| 26 | 13:30–14:10 | PG calle romana | Cámara en mano controlada, sin close-ups de violencia | "Entre el año 303 y el 311... en todo el imperio." | Soldados romanos confiscando rollos de una vivienda, tratamiento sobrio | Luz dura de mediodía, sombras marcadas | Percusión tensa, sin dramatización excesiva |
-| 27 | 14:10–14:30 | PD rollo ardiendo | Estático, plano breve | (mismo bloque, marca **[INTERPRETACIÓN]**) | Llamas consumiendo un rollo, encuadre controlado, sin explotar el momento | Luz cálida del fuego | SFX de fuego crepitando, música baja a silencio parcial |
-| 28 | 14:30–15:00 | PM salón de Nicea (callback) | Repite el movimiento de cámara del plano 1 | "Y así llegamos, por fin, de nuevo a Nicea..." | Mismo set del Hook, ahora reconocido por el espectador | Misma luz fría del Hook (continuidad deliberada) | Regresa el motivo musical del Hook (leitmotiv) |
-| 29 | 15:00–15:30 | PD actas del concilio | Estático con resaltado de texto | "Ni las actas que conservamos... formar el Nuevo Testamento." | Texto de actas resaltando "naturaleza de Cristo", "fecha de la Pascua", "Credo" — sin mención del canon | Luz fría de archivo | Silencio relativo, un acorde sostenido |
-| 30 | 15:30–16:00 | PM split screen "mito vs. hecho" | Estático | "La idea de que 'Nicea decidió la Biblia'... un hallazgo histórico." | Izquierda: silueta genérica de portada de novela de ficción (sin logos reales); derecha: facsímil de acta | Fondo neutro | Acorde de resolución, tono didáctico — marca **[TRADICIÓN]** |
-| 31 | 16:00–16:35 | PM Atanasio escribiendo | Dolly-in lento | "Cuarenta y dos años después de Nicea... escritos 'apócrifos'." | Atanasio (perfil/silueta) sellando una carta pascual en Alejandría | Luz cálida dorada, vela | Cuerdas cálidas ascendentes — resolución del open loop principal |
-| 32 | 16:35–17:00 | PD lista de 27 libros | Motion graphic, aparición progresiva | (mismo bloque, continúa) | Lista numerada 1–27 apareciendo con tipografía elegante | Fondo neutro oscuro | Coro/cuerdas suaves, sensación de cierre |
-| 33 | 17:00–17:20 | PG aéreo/dron | Aéreo con push-in | "Aquí cerramos el open loop... nunca entraron en el Nuevo Testamento." | Desierto egipcio, 1945: dos siluetas cavando junto a una formación rocosa | Luz dorada de atardecer | Cambio de textura musical: percusión terrosa, cuerdas suspendidas |
-| 34 | 17:20–17:30 | PP vasija abierta | Macro, push-in | "¿Por qué estaban enterrados... no un hecho cerrado." | Vasija de barro entreabierta, códices de papiro visibles | Luz cálida tenue, contraluz de atardecer | Música con tono de misterio no resuelto — marca **[HIPÓTESIS]** |
-| 35 | 17:30–18:00 | PG concilio norteafricano | Travelling lateral | "En el año 393... Carta de Atanasio." | Sala de concilio en Hipona, obispos en asamblea | Luz cálida mediterránea | Cuerdas institucionales, tono solemne |
-| 36 | 18:00–18:20 | PD sello "RATIFICADO" | Estático con overlay | "Cuatro años después, en Cartago... reafirmó esa misma lista." | Sello estampándose sobre facsímil de acta conciliar | Luz neutra de estudio | SFX de sello, música continúa |
-| 37 | 18:20–18:30 | PM infografía "ratificación vs. creación" | Split screen conceptual | "Es importante decir con precisión... esa distinción." | Icono de "lista ya existente" a la izquierda, icono de concilio a la derecha, flecha de confirmación (no de creación) | Fondo neutro | Música resolutiva pero abierta — marca **[INTERPRETACIÓN]** |
-| 38 | 18:30–18:55 | PG sala de archivo (callback al plano 3) | Travelling cenital lento | "Hoy, la mayoría de los historiadores coincide... esta historia." | Mesa de archivo ahora completamente ordenada, línea de tiempo visible | Mesa de archivo ahora completamente ordenada, línea de tiempo visible | Mesa de archivo ahora completamente ordenada, línea de tiempo visible |
-| 39 | 18:55–19:15 | PM split screen equilibrado | Estático | "Michael Kruger sostiene... no un defecto de esta historia." | Dos columnas con cita breve de Kruger y de Ehrman, mismo tamaño y peso tipográfico | Fondo neutro | Música en equilibrio, sin favorecer un lado — marca **[CONSENSO ACADÉMICO — con desacuerdo real]** |
-| 40 | 19:15–19:45 | PG mesa de archivo | Pull-out lento y continuo | "Nadie firmó un decreto único... en la misma dirección." | Toda la mesa con los documentos de los 10 actos dispuestos cronológicamente | Luz cálida de archivo, ahora más abierta que al inicio | Cuerdas + coro sutil en crescendo controlado |
-| 41 | 19:45–20:05 | PP título + lista de 27 libros de fondo | Estático | "Esa es la respuesta a la pregunta con la que empezamos... seguir el rastro." | Tipografía elegante del título sobre la lista de 27 libros desenfocada | Luz cálida | Resolución musical final, nota sostenida |
-| 42 | 20:05–20:20 | PM texto simple | Estático | "Si quieres seguir el siguiente documento de este expediente... el próximo documental de esta serie." | Texto: "Próximo expediente: los manuscritos", miniatura sutil del siguiente documental | Fondo oscuro neutro, sin animación agresiva | Música baja suave, sin urgencia |
-| 43 | 20:20–20:35 | PM ícono de suscripción | Estático | "Suscríbete si quieres seguir el caso... vasijas enterradas de Nag Hammadi?" | Ícono minimalista de campana/suscripción, texto con la pregunta para comentarios | Fondo oscuro | Música se desvanece (fade out) |
+### [x] Plano 1: `plano1_nicea_dolly_in.mp4` (Nicea 325 d.C.)
+*   **Estado**: GENERADO Y DESCARGADO
+*   **Prompt Usado**: A majestic, dimly lit ancient Roman council chamber in Nicaea 325 AD. Observers and bishops in ornate early Christian liturgical robes debating in deep shadows. Soft light from burning torches, highly detailed oil painting aesthetic, cinematic, slow dolly in.
 
-**Siguiente paso:** completar `06-produccion-higgsfield.md`.
+### [x] Plano 2: `plano2_tarjeta_texto.png` (Tarjeta de Texto)
+*   **Estado**: GENERADO Y DESCARGADO
+*   **Prompt Usado**: High quality textures of old vintage parchment or vellum. Raw, coarse, aged paper texture, soft studio lighting, extremely detailed background.
+
+### [x] Plano 3: `plano3_archivo_video.mp4` (Sala de Archivo)
+*   **Estado**: GENERADO Y DESCARGADO
+*   **Prompt Usado**: A dark ancient scriptorium or monastic library room, stone walls, warm light. On a large rustic oak wooden table are scattered ancient parchment scrolls and early leather bound codices. Cinematic travelling shot.
+
+### [ ] Plano 4: `plano4_escriba_vara.mp4` (La Vara de Medir - Kánon)
+*   **Estado**: PENDIENTE GENERAR (Higgsfield)
+*   **Prompt**: Close up shot of an ancient scribe's hands using a wooden measuring rod (kanon) and a reed pen to trace lines on a clean sheet of papyrus. Intricate textures, candlelit, highly cinematic, slow macro shot.
+
+### [ ] Plano 5: `plano5_lectura_liturgica.mp4` (Lectura en Asamblea)
+*   **Estado**: PENDIENTE GENERAR (Higgsfield)
+*   **Prompt**: An early Christian home church meeting in Rome, 1st century AD. A speaker stands in front of a small assembly of people reading aloud from a Greek Septuaginta papyrus scroll. Soft daylight coming from a window, oil painting style, emotional.
+
+### [ ] Plano 6: `plano6_papiro_nilo.mp4` (Papiro del Nilo)
+*   **Estado**: PENDIENTE GENERAR (Higgsfield)
+*   **Prompt**: Close-up of green papyrus plants growing in the Nile delta river, soft camera panning, transitioning to a textured sheet of ancient papyrus paper. Rich earth colors, high details.
+
+### [ ] Plano 7: `plano7_codice_3d.mp4` (Revolución del Códice)
+*   **Estado**: PENDIENTE GENERAR (Higgsfield)
+*   **Prompt**: A leather bound ancient book (codex) laying on a dark stone background. The book opens slowly by itself, pages turning to reveal Greek text written on both sides. Cinematic side lighting.
+
+### [ ] Plano 8: `plano8_marcion.mp4` (Marción el Hereje)
+*   **Estado**: PENDIENTE GENERAR (Higgsfield)
+*   **Prompt**: An stern, severe-looking 2nd century Roman shipowner (Marcion of Sinope) standing outdoors in Rome, tearing Hebrew scripture scrolls in half with a dark church in the background. Sunset, cinematic lighting.
+
+### [ ] Plano 9: `plano9_pluma_tinta.mp4` (Depuración Textual)
+*   **Estado**: PENDIENTE GENERAR (Higgsfield)
+*   **Prompt**: Close up shot of a hand holding a feather quill pen, aggressively crossing out Greek text lines on a sheet of parchment with thick black ink. High contrast, macro lens.
+
+### [ ] Plano 10: `plano10_hallazgo_muratori.mp4` (Códice Bobbio)
+*   **Estado**: PENDIENTE GENERAR (Higgsfield)
+*   **Prompt**: Top down shot of an open, ancient Latin manuscript with rustic handwriting and misspelling mistakes. Laying inside a dusty cathedral library vault. Dim light.
+
+### [ ] Plano 11: `plano11_eruditos_debate.mp4` (Debate Crítico)
+*   **Estado**: PENDIENTE GENERAR (Higgsfield)
+*   **Prompt**: Two modern historical scholars in a dark university archive room, analyzing ancient papyrus fragments using advanced magnifying glasses and microscopes. Soft blue and yellow lights.
+
+### [ ] Plano 12: `plano12_scriptorium_imperial.mp4` (Las 50 Biblias)
+*   **Estado**: PENDIENTE GENERAR (Higgsfield)
+*   **Prompt**: A large Byzantine scriptorium full of professional scribes working in rows, copying biblical texts onto premium vellum pages. Gold and blue mosaics on the walls, majestic lighting, commission of Constantine.
+
+### [ ] Plano 13: `plano13_atanasio.mp4` (Atanasio de Alejandría)
+*   **Estado**: PENDIENTE GENERAR (Higgsfield)
+*   **Prompt**: Bishop Athanasius of Alexandria, a thin Egyptian scholar with a white beard, writing a letter with determination in a stone cell. Candlelight, scrolls stacked on shelves behind him. Egypt, 367 AD.
+
+### [ ] Plano 14: `plano14_nag_hammadi.mp4` (Hallazgo 1945)
+*   **Estado**: PENDIENTE GENERAR (Higgsfield)
+*   **Prompt**: An Egyptian peasant in a desert landscape near red cliffs, digging in the ground with a spade and uncovering a sealed ancient red clay jar. Bright desert sun, dusty air, historical discovery.
