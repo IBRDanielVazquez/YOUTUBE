@@ -27,11 +27,6 @@
       background: #0b0c10;
     }
 
-    /* Ocultar clips por defecto. El motor de HyperFrames los mostrará usando data-start y data-duration */
-    .clip {
-      display: none;
-    }
-
     /* Ajuste de todos los clips visuales para llenar la pantalla */
     video.clip, img.clip {
       position: absolute;
@@ -112,7 +107,7 @@
 <body>
 
   <!-- Contenedor principal de HyperFrames -->
-  <div data-hf-id="hf-tvpd" id="root" data-composition-id="canon-nt" data-width="1920" data-height="1080" data-start="0" data-duration="20">
+  <div data-hf-id="hf-tvpd" id="root" data-composition-id="canon-nt" data-width="1920" data-height="1080" data-start="0" data-duration="20" data-no-timeline>
 
     <!-- ========================================== -->
     <!-- ESCENA 1: EL MITO DE NICEA (0s - 7s)       -->

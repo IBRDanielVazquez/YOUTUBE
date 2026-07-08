@@ -1,0 +1,4 @@
+bin/
+.thumbnails/
+*.DS_Store
+node_modules/
